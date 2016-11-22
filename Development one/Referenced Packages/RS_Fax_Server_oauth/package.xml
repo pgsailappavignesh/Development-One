@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RS_Fax_Server_oauth</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <modules>
+        <module>
+            <label>RS_Fax_Server_oauth</label>
+            <moduleType>connected</moduleType>
+            <name>RS_Fax_Server_oauth</name>
+            <types>
+                <members>RS_Fax_Server_oauth_devConfig</members>
+                <name>ConnectivityDevConfigMetadata</name>
+            </types>
+            <types>
+                <members>efaxapp__RS_Fax_Server_oauth</members>
+                <name>Module</name>
+            </types>
+            <version>22.0</version>
+        </module>
+    </modules>
+    <namespacePrefix>efaxapp</namespacePrefix>
+    <version>36.0</version>
+</Package>
